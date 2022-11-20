@@ -3,7 +3,7 @@
 </h4>
 ---
 
-<h2>About 📝</h2>
+<h2>About</h2>
 
 <p align="center">Created using NodeJS, TypeScript, Express, MongoDB and Multer following "O Poder do JavaScript" by <a href="https://github.com/maateusilva" target="_blank">Mateus Silva</a></p>
 
