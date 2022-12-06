@@ -9,7 +9,7 @@ export async function createOrder(req: Request, res: Response) {
 
     const order = await Order.create({table, products});
 
-    io.emit('order@new');
+    io.emit('order@new', order);
     res.status(201).json(order);
   } catch {
     res.status(500);
